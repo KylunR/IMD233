@@ -15,6 +15,7 @@ p {
 }
 
 span {
-    background-color: darkgrey;
+    background-color:white;
     font-weight: bold;
+    color: red;
 }
