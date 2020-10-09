@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <link rel="stylesheet" href="index.css"> -->
+        <link rel="stylesheet" href="index.css">
         <title>Kylun Robbins Lab 3c</title>
     </head>
     <body>
@@ -11,15 +11,47 @@
         <img src="http://x.pac-12.com/profiles/pac12/themes/pac12_foundation/images/pac12/logo.png"
             alt="Pac-12 Logo" title="Pac-12 Home">
         <h3>Vote for your favorite football team!</h3>
-        <form action="http://courses.washington.edu/bimd.php" method="post">
-            <input type="image" src="http://x.pac-12.com/sites/default/files/styles/thumbnail/public/washington-logo_0__1438812441.png" id="Washington Huskies">Washington Huskies<br/>
-            <input type="image" src="http://x.pac-12.com/sites/default/files/styles/thumbnail/public/washington-state-logo__1438812470.png" width="32" height="32" id="Washington Cougars">Washington Cougars<br/>
-            <input type="image" src="http://x.pac-12.com/sites/default/files/styles/thumbnail/public/Stanford_Logo_New_LG__1438812239.png" width="32" height="32" id="Stanford Cardinals">Stanford Cardinals<br/>
-            <input type="image" src="http://x.pac-12.com/sites/default/files/styles/thumbnail/public/cal_yellow_lg_2017.png" id="California Bears">California Bears<br/>
-            <input type="image" src="http://x.pac-12.com/sites/default/files/styles/thumbnail/public/oregon-state-logo_0__1438812147.png" id="Oregon State">Oregon State Beavers<br/>
-            <input type="image" src="http://x.pac-12.com/sites/default/files/styles/thumbnail/public/oregon-g-logo__1438812094.png" id="Oregon Ducks">Oregon Ducks<br/>
+        <form action="http://courses.washington.edu/bimd233/bimd.php" method="post">
+            
+            <!--
+            <input type="image" name="team" value="Washington Huskies" src="uw_logo.png" width="100" height="75">Washington Huskies<br/>
+            <input type="image" name="team" value="Washington Cougars" src="uw_logo.png" width="100" height="75">Washington Cougars<br/>
+            <input type="image" name="team" value="Stanford Cardinals" src="uw_logo.png" width="100" height="75">Stanford Cardinals<br/>
+            <input type="image" name="team" value="California Bears" src="uw_logo.png" width="100" height="75">California Bears<br/>
+            <input type="image" name="team" value="Oregon State Beavers" src="uw_logo.png" width="100" height="75">Oregon State Beavers<br/>
+            <input type="image" name="team" value="Oregon Ducks" src="uw_logo.png" width="100" height="75">Oregon Ducks<br/>            
             <br/>My State: <input type="text" name="state"><br/>
+            <input type="submit"> 
+            -->
+
+            <label>
+                <input type="radio" name="team" value="Washington Huskies">
+                <img alt="Washington Huskies" src="uw_logo.png" width=50 height=40>Washington Huskies
+            </label> <br>
+            <label>
+                <input type="radio" name="team" value="Washington Cougars"> 
+                <img alt="Washington Cougars" src="wsu_logo.png" width=50 height=50>Washington Cougars
+            </label> <br>
+            <label>
+                <input type="radio" name="team" value="Stanford Cardinals"> 
+                <img alt="Stanford Cardinals" src="stanford_logo.png" width=50 height=50>Stanford Cardinals 
+            </label> <br>
+            <label>
+                <input type="radio" name="team" value="California Bears">
+                <img alt="California Bears" src="cal_logo.png" width=50 height=40>California Bears 
+            </label> <br>
+            <label>
+                <input type="radio" name="team" value="Oregon State"> 
+                <img alt="Oregon State Beavers" src="osu_logo.png" width=50 height=40>Oregon State Beavers 
+            </label> <br>
+            <label>
+                <input type="radio" name="team" value="Oregon">
+                <img alt="Oregon Ducks" src="oregon_logo.png" width=50 height=40>Oregon Ducks 
+            </label> <br>
+
+            <br/>My State: <input type="text"name="state"><br/><br>
             <input type="submit">
+          
         </form>
     </body>
 </html>
