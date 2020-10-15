@@ -1,0 +1,15 @@
+body {
+    padding: 250px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background: black;
+    background-image: url(https://www.law.washington.edu/images/zoom/Zoom-Background-2.jpg);
+    background-size: cover;
+}
+
+canvas {
+    margin: 20px auto;
+    background: #363C74;
+    border: 5px solid #E8D3A2;
+}

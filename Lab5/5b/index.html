@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Kylun Robbins Lab 5b</title>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="400" height="400">
+
+        </canvas>
+    </body>
+
+    <script>
+        let canvas = document.getElementById("myCanvas");
+
+        let context = canvas.getContext("2d");
+
+        // Left vertical line
+        context.moveTo(133, 0);
+        context.lineTo(133, 400);
+        context.lineWidth=5;
+        context.stroke();
+
+        // Right vertical line
+        context.moveTo(266, 0);
+        context.lineTo(266, 400);
+        context.lineWidth=5;
+        context.stroke();
+
+        // Left horizontal line
+        context.moveTo(0, 133);
+        context.lineTo(400, 133);
+        context.lineWidth=5;
+        context.stroke();
+
+        // Right horizontal line
+        context.moveTo(0, 266);
+        context.lineTo(400, 266);
+        context.lineWidth=5;
+        context.stroke();
+        
+        context.strokeStyle = "#E8D3A2";
+
+        // Circle top-left
+        let x=66.5, y=66.5, radius=50, angle=2*Math.PI;
+        context.moveTo(116.5, 66.5);
+        context.arc(x, y, radius, 0, angle);  
+        context.lineWidth=5;  
+        context.stroke();
+
+        // Circle bottom-right
+        x=332.5, y=332.5, radius=50, angle=2*Math.PI;
+        context.moveTo(382.5, 332.5);
+        context.arc(x, y, radius, 0, angle);  
+        context.lineWidth=5;  
+        context.stroke();
+        
+        // Cross middle (top-right to bottom-left)
+        context.moveTo(153, 153);
+        context.lineTo(244, 244);
+        context.lineWidth=5;
+        context.stroke();
+
+        // Cross middle (bottom-right to top-left)
+        context.moveTo(153, 244);
+        context.lineTo(244, 153);
+        context.lineWidth=5;
+        context.stroke();
+
+    </script>
+</html>
