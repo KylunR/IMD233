@@ -5,7 +5,7 @@
         <title>Kylun Robbins Lab 5b</title>
     </head>
     <body>
-        <canvas id="myCanvas" width="400" height="400">
+        <canvas id="myCanvas" width="600" height="600">
 
         </canvas>
     </body>
@@ -16,54 +16,54 @@
         let context = canvas.getContext("2d");
 
         // Left vertical line
-        context.moveTo(133, 0);
-        context.lineTo(133, 400);
+        context.moveTo(200, 0);
+        context.lineTo(200, 600);
         context.lineWidth=5;
         context.stroke();
 
         // Right vertical line
-        context.moveTo(266, 0);
-        context.lineTo(266, 400);
-        context.lineWidth=5;
+        context.moveTo(400, 0);
+        context.lineTo(400, 600);
+        context.lineWidth=5; 
         context.stroke();
 
         // Left horizontal line
-        context.moveTo(0, 133);
-        context.lineTo(400, 133);
+        context.moveTo(0, 200);
+        context.lineTo(600, 200);
         context.lineWidth=5;
         context.stroke();
 
         // Right horizontal line
-        context.moveTo(0, 266);
-        context.lineTo(400, 266);
+        context.moveTo(0, 400);
+        context.lineTo(600, 400);
         context.lineWidth=5;
         context.stroke();
         
         context.strokeStyle = "#E8D3A2";
 
         // Circle top-left
-        let x=66.5, y=66.5, radius=50, angle=2*Math.PI;
-        context.moveTo(116.5, 66.5);
+        let x=100, y=100, radius=75, angle=2*Math.PI;
+        context.moveTo(175, 100);
         context.arc(x, y, radius, 0, angle);  
         context.lineWidth=5;  
         context.stroke();
 
         // Circle bottom-right
-        x=332.5, y=332.5, radius=50, angle=2*Math.PI;
-        context.moveTo(382.5, 332.5);
+        x=500, y=500, radius=75, angle=2*Math.PI;
+        context.moveTo(575, 500);
         context.arc(x, y, radius, 0, angle);  
         context.lineWidth=5;  
         context.stroke();
         
         // Cross middle (top-right to bottom-left)
-        context.moveTo(153, 153);
-        context.lineTo(244, 244);
+        context.moveTo(225, 225);
+        context.lineTo(375, 375);
         context.lineWidth=5;
         context.stroke();
 
         // Cross middle (bottom-right to top-left)
-        context.moveTo(153, 244);
-        context.lineTo(244, 153);
+        context.moveTo(225, 375);
+        context.lineTo(375, 225);
         context.lineWidth=5;
         context.stroke();
 
