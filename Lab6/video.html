@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="video.css">
+        <title>Kylun Robbins Lab 6 (Video)</title>
+    </head>
+
+    <body>
+        <!-- Title section with title and button to return home -->
+        <div class="title_bar">
+            <h1>Video Player</h1>
+            <button onClick="document.location.href='./index.html'">Home</button>
+        </div>
+
+        <!-- Example video included with lab files -->
+        <hr>
+        <p><span>"Star Wars: The Force Awakens" Trailer</span></p>
+        <video poster="image/star-wars-poster.png" width="858" height="480" controls preload loop>
+            <source src="video/StarWars.mp4" type="video/mp4" >
+            <p>This browser does not support our video format.</p>
+        </video>
+        <hr>
+
+        <!-- Video downloaded and converted from internet -->
+        <!-- includes mp4, ogg, and webm file types -->
+        <hr>
+        <p><span>"Baby Yoda" Star Wars Clip</span></p>
+        <video poster="image/baby-yoda.jpg" width="858" height="480" controls preload loop>
+            <source src="video/Baby-Yoda.mp4" type="video/mp4">
+            <source src="video/Baby-Yoda.ogv" type="video/ogv">
+            <source src="video/Baby-Yoda.webm" type="video/webm">
+            <p>This browser does not support our video format.</p>
+        </video>
+        <hr>
+
+    </body>
+
+</html>

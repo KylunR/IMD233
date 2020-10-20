@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="songs.css">
+        <title>Kylun Robbins Lab 6 (Audio)</title>
+    </head>
+
+    <body> 
+        <!-- Title section with title and button to return home -->
+        <div class="title_bar">
+            <h1>Audio Player</h1>
+            <button onClick="document.location.href='./index.html'">Home</button>
+        </div>
+
+        <!-- Example audio included with lab -->
+        <hr>
+        <span>Florrie - Call of the Wild Multisource</span>
+        <audio controls>
+            <source src="audio/Florrie-CallWild.mp3" type="audio/mp3">
+            <source src="audio/Florrie-CallWild.ogg" type="audio/ogg">
+        </audio>
+        <hr>
+
+        <!-- Audio downloaded and converted from the internet -->
+        <hr>
+        <span>Dogs Howling</span>
+        <audio controls>
+            <source src="audio/Dogs-Howling.mp3" type="audio/mp3">
+            <source src="audio/Dogs-Howling.ogg" type="audio/ogg">
+        </audio>
+        <hr>
+
+    </body>
+
+</html>
