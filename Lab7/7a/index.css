@@ -1,0 +1,99 @@
+* {
+    font-family: sans-serif;
+    justify-content: center;
+    margin: auto;
+}
+
+table {
+    margin-top: 200px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+th {
+    background-color: grey;
+}
+
+.RGB_base {
+    background-color: rgba(8, 127, 254, 1);
+}
+
+.RGB_09 {
+    background-color: rgba(8, 127, 254, 0.9);
+}
+
+.RGB_08 {
+    background-color: rgba(8, 127, 254, 0.8);
+}
+
+.RGB_07 {
+    background-color: rgba(8, 127, 254, 0.7);
+}
+
+.RGB_06 {
+    background-color: rgba(8, 127, 254, 0.6);
+}
+
+.RGB_05 {
+    background-color: rgba(8, 127, 254, 0.5);
+}
+
+.RGB_04 {
+    background-color: rgba(8, 127, 254, 0.4);
+}
+
+.RGB_03 {
+    background-color: rgba(8, 127, 254, 0.3);
+}
+
+.RGB_02 {
+    background-color: rgba(8, 127, 254, 0.2);
+}
+
+.RGB_01 {
+    background-color: rgba(8, 127, 254, 0.1);
+}
+
+.HSL_base {
+    background-color: hsla(211, 99.2%, 51.4%, 1);
+}
+
+.HSL_09 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.9);
+}
+
+.HSL_08 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.8);
+}
+
+.HSL_07 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.7);
+}
+
+.HSL_06 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.6);
+}
+
+.HSL_05 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.5);
+}
+
+.HSL_04 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.4);
+}
+
+.HSL_03 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.3);
+}
+
+.HSL_02 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.2);
+}
+
+.HSL_01 {
+    background-color: hsla(211, 99.2%, 51.4%, 0.1);
+}

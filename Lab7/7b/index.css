@@ -1,0 +1,39 @@
+#flag_frame {
+  margin-top: 20px;
+}
+
+#flag {
+  margin: 0 auto;
+  height: 400px;
+  width: 711.11111px;
+}
+
+#starcell {
+  background-color: navy;
+}
+
+#stars {
+  width: 284.44444px;
+  height: 215.38462px;
+  color: white;
+  text-align: center;
+  padding: 5.33333px;
+}
+
+td.stripes {
+  width: 711.11111px;
+  height: 30.76923px;
+}
+
+.red_stripe {
+  background-color: red;
+}
+
+.white_stripe {
+  background-color: white;
+}
+
+div > table {
+  border: 3px solid black;
+}
+/*# sourceMappingURL=index.css.map */

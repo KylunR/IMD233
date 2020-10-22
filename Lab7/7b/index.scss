@@ -1,0 +1,47 @@
+$flag-height: 400px;
+$aspect-ratio: 16/9;
+$flag-width: $flag-height * $aspect-ratio;
+$stripe-height: $flag-height / 13;
+
+// Used https://usflags.design/usa/#:~:text=U.S.%20Executive%20Order%2010834%20specifies,the%20length%20of%20the%20fly.
+// for proportion references 
+
+#flag_frame {
+    margin-top: 20px;
+}
+
+#flag {
+    margin: 0 auto;
+    height: $flag-height;
+    width: $flag-width;
+}
+
+#starcell {
+    background-color: navy;
+}
+
+#stars {
+    width: $flag-width * 0.4;       // Star section width is .76 / 1.9 = .4
+    height: $stripe-height * 7;     // Flag should be 7 strips tall
+    color: white;
+    text-align: center;
+    padding: $flag-height / 75;
+}
+
+
+td.stripes {
+    width: $flag-width;
+    height: $stripe-height;
+}
+
+.red_stripe {
+    background-color: red;
+}
+
+.white_stripe {
+    background-color: white;
+}
+
+div > table {
+    border: 3px solid black;
+}
