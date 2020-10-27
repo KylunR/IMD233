@@ -1,0 +1,169 @@
+/* create a 100px wide border for the body using rgba(51, 0, 111, 0.6) 
+   as the color, make all text in the document the grayish color:#505050, 
+   the maximum width of the document shall be 800px, but nominally 80% 
+   with a 20px padding.  The margin shall be 30px and set to auto scale 
+   with browser window size. 
+   Hint: suggested fonts:  Ubuntu, adobe-garamond-pro */
+body {
+   border: 100px solid rgba(51, 0, 111, 0.6);
+   color: #505050;
+   max-width: 800px;
+   width: 80%;
+   padding: 20px;
+   margin: 30px auto;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* set all paragraph font size to 1.2em of the root container */
+p {
+   font-size: 1.2em;
+}
+
+/* create a styled horizonal rule of 2px tall, but with a gray 
+   gradient fill from the right with end points being rgba(0, 0, 0, 0.1), 
+   the enter being rgba(0, 0, 0, 0.3).  Hint: use special type of 
+   background image of background-image: linear-gradient */
+hr {
+   border: 0;
+   height: 2px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+}
+
+/* wikipedia citation should have a wider letter spacing of 0.1em, 
+an oblique font style and smaller size of 0.8em */
+.citation {
+   letter-spacing: 0.1em;
+   font-style: oblique;
+   font-size: 0.8em;
+}
+
+/* make all footnotes superscript by 0.6em and blue. Hint: use vertical-align: super */
+.footnote {
+   font-size: 0.6em;
+   color: blue;
+   vertical-align: super;
+}
+
+/* center align the head picture and all of its text.  
+   Hint: text-align applies not only to text but all objects in the box*/
+.headpic {
+   text-align: center;
+}
+
+/* make the head picture image 90% of the container width */
+.headpic img {
+   width: 90%;
+}
+
+/* style the head picture figure caption with letters spaced 
+   by 0.15em and the text size reduced to 0.8em */
+.headpic figcaption {
+   letter-spacing: 0.15em;
+   font-size: 0.8em;
+}
+
+/* give the introductory reference paragraph a left border, using border-left, 
+   the same color as the background (hint: rgba(r,g,b, 0.6) ) and 
+   offset the parapgraph from the left by 8 pixels using padding-left */
+p.intro {
+   border-left: 3px solid rgba(51, 0, 111, 0.6);
+   padding-left: 8px;
+}
+
+/* make the main heading center aligned and 2.5 times the size of 
+   the normal <h1> by referencing the root size, remove all extraneous 
+   margin using margin: 0 auto;*/
+h1 {
+   text-align: center;
+   font-size: 2.5em;
+   margin: 0 auto;
+}
+
+/* using text-transform, capitalize all h1 and h2 elements, make them the 
+   same color as the lavender theme color but 10% darker (i.e. alpha= 0.6 + 0.1) */
+h1, h2 {
+   text-transform: capitalize;
+   color: rgba(51, 0, 111, 0.7);
+}
+
+/* make the first charactrer of paragraph1 twice the size (i.e. 2em) of all other p 
+   characters, same color as the h1 text and bold */
+#para1::first-letter {
+   font-size: 2em;
+   font-style: bold;
+   color: rgba(51, 0, 111, 0.7);
+}
+
+/* =========================== COLOR SWATCHES ========================== */
+/* create a table of 4 swatch colors and 3 rows under the swatch colors 
+   to provide data for hex, rgb and hsl info.  Create a lightgray 2px border 
+   around this table and center it. hint: use margin-left: auto and 
+   margin-right: auto as a CSS trick for centering. Use the san-serif 
+   font calibri for all text in the color table.
+   ===================================================================== */
+table.swatches {
+   border: 2px solid lightgray;
+   margin: 0 auto;
+   font-family: Calibri, san-serif;
+   border-collapse: collapse;
+}
+
+/* make all swatch cells 160px wide and center align all text in these table cells. 
+   Draw a lightgray border of 2px around all swatch cells except for the color swatches */
+table.swatches td {
+   width: 160px;
+   text-align: center;
+   border: 2px solid lightgray;
+}
+
+/* set the swatch table first row properties to 50px tall, all text uppercase 
+  and slightly expanded text of 0.2em. Hint: use text-transform and letter-spacing */
+tr:first-child {
+   height: 50px;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+}
+
+/* set the four swatch cells to the following background 
+   colors: #e6e6fa, #b57edc, #9966cc, #4b2e83.  Set the text 
+   color to lightgray except for the first cell which will be black. */
+#lav1 {
+   background-color: #e6e6fa;
+   color: black;
+}
+
+#lav2 {
+   background-color: #b57edc;
+   color: lightgray;
+}
+
+#lav3 {
+   background-color: #9966cc;
+   color: lightgray;
+}
+
+#lav4 {
+   background-color: #4b2e83;
+   color: lightgray;
+}
+
+/* ================ PHOTO GALLERY ============== */
+/* center the photo gallery and make a grid of 3 photos across (for full size views). 
+   Hint: temporarily turn on a border to see where the photos container is. */
+.photos {
+  text-align: center;
+}
+
+/* create a grid of 3 across for 6 or 9 photos.  Hint: one html table cell has 
+   been designed to enclose the whole grid, but use width of 30% and 
+   margin of 1.3% for the images to "float" them into a 3 picture wide grid  */
+.photos img {
+   grid: 100%;
+   width: 30%;
+   margin: 1.3%;
+}
+
+/* wrap a thin light gray border around the photogallery */
+table#photos {
+   border: 2px solid lightgray;
+}
