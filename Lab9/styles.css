@@ -54,6 +54,8 @@ input {
 
 .jumbotron_section > h1 {
     width: 50%;
+    font-size: 35px;
+    font-weight: 800;
     margin: 0 auto;
 }
 
@@ -62,11 +64,9 @@ input {
     width: 90%;
     margin: 0 auto;
     padding-top: 20px;
-    padding-bottom: 50px;
 }
 
 .jumbotron_section > img {
-    padding-top: 25px;
     margin: 0 auto;
     width: 30%;
     height: 30%;
