@@ -1,0 +1,12 @@
+.card_section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.card {
+    border: 2px solid black;
+}
