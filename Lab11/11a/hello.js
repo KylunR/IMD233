@@ -1,13 +1,13 @@
+// Prompt and store response for username and password
 var username = prompt("Enter username: ");
 var password = prompt("Enter password: ");
 
+// Log the responses to the console
 console.log("Username: " + username);
 console.log("Password: " + password);
 
-var username_text = document.getElementById("username");
-username_text.textContent = "Username: " + username;
-
-var password_text = document.getElementById("password");
-password_text.textContent = "Password: " + password;
+// Update values on screen
+document.getElementById("username").innerHTML = "Username: " + username;
+document.getElementById("password").innerHTML = "Password: " + password;
 
 

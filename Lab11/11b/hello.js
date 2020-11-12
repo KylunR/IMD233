@@ -1,16 +1,16 @@
-let username = "";
-let password = "";
+var username = "";
+var password = "";
 
-function printFormInfo() {
-    // Get inputted values for username and password
-    username = document.getElementById("usernameForm").value;
-    password = document.getElementById("passwordForm").value;
+function printPromptResponse() {
+    // Prompt and store response for username and password
+    username = prompt("Enter username: ");
+    password = prompt("Enter password: ");
 
-    // Change html text on page to show username and password
-    document.getElementById("username").innerHTML = "Username: " + username;
-    document.getElementById("password").innerHTML = "Password: " + password;
-
-    // Log the username and password to the console
+    // Log the responses to the console
     console.log("Username: " + username);
     console.log("Password: " + password);
+
+    // Update values on screen
+    document.getElementById("username").innerHTML = "Username: " + username;
+    document.getElementById("password").innerHTML = "Password: " + password;
 }
