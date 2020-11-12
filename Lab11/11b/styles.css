@@ -34,6 +34,7 @@ body {
     width: 20%;
     border-radius: 5px;
     box-shadow: 0 0 1.5px 1.5px black;
+    cursor: pointer;
 }
 
 .submit_button:hover {
