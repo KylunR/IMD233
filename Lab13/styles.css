@@ -1,0 +1,31 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0px 25px 0px;;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+    width: 90%;
+    background-color: #f3f3f3;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 6px;
+}
