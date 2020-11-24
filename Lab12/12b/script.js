@@ -1,9 +1,9 @@
 var carsArray = [
-    ['Toyota', 'Cambry', 2020, 24000],
-    ['Tesla', 'Model 3', 2019, 40000],
-    ['Honda', 'Accord', 2003, 6500],
-    ['Chevy', 'Impala', 2012, 11500],
-    ['Nissan', 'GTR', 2021, 100000]
+    ['Toyota', 'Cambry', 2020, '$24,000'],
+    ['Tesla', 'Model 3', 2019, '$40,000'],
+    ['Honda', 'Accord', 2003, '$6,500'],
+    ['Chevy', 'Impala', 2012, '$11,500'],
+    ['Nissan', 'GTR', 2021, '$100,000']
 ];
 
 let tableBody = document.getElementById("table_body");
