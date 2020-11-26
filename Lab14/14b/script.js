@@ -8,7 +8,7 @@ function getUserInput() {
         '\nTo move to next state: "next"' +
         '\nTo move to previous state: "prev"' + 
         '\nTo stop: "exit" or "quit"' + 
-        '\nEnter a command: ' , 'next'
+        '\n\nEnter a command: ' , 'next'
     );
     return cmd;
 }
