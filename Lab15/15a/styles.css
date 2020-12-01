@@ -1,0 +1,16 @@
+body {
+    margin: 3rem auto;
+    text-align: center;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-weight: 800px;
+}
+
+
+table, th, td {
+    color: green;
+}

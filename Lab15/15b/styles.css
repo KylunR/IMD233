@@ -1,0 +1,73 @@
+body {
+    background-color: #f3f3f3;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: white;
+    /* border: 10px solid #4b2e83; */
+    box-shadow: 0px 0px 2px 2px lightgray;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+.header_row {
+    background-color: lightgray;
+    font-weight: 600;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.row {
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+}
+
+.col-sm {
+    padding: 10px;
+}
+
+.center_col {
+    text-align: center;
+}
+
+.stanford {
+    background-color: #990000;
+    color: lightgray;
+}
+
+.oregon {
+    background-color: #154733;
+    color: yellow;
+}
+
+.wsu {
+    background-color: #981e32;
+    color: #5e6a71;
+}
+
+.cal {
+    background-color: #081f3f;
+    color: #fcb326;
+}
+
+.uw {
+    background-color: #4b2e83;
+    color: #b7a57a;
+}
+
+.osu {
+    background-color: #252525;
+    color: #cc4500;
+}
